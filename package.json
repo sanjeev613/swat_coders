@@ -1,0 +1,27 @@
+{
+  "name": "agrosense-platform",
+  "version": "1.0.0",
+  "description": "AgroSense — AI-Powered Perishable Cold Chain Monitoring & Smart Liquidation Platform",
+  "main": "backend/main.py",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:dev": "uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload",
+    "install:all": "npm --prefix frontend install && pip install -r backend/requirements.txt"
+  },
+  "keywords": [
+    "agritech",
+    "cold-chain",
+    "fastapi",
+    "react",
+    "vite",
+    "iot-telemetry",
+    "ai-shelf-life",
+    "fifo-logistics",
+    "liquidation-marketplace"
+  ],
+  "author": "AgroSense Team",
+  "license": "MIT"
+}
